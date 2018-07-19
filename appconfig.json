@@ -1,0 +1,8 @@
+{
+    "tsdb": "http://192.168.1.172:4242",
+    "couchdb": "http://192.168.1.172:5980",
+    "snpyurl": "http://192.168.1.172:5004",
+    "requirAuth":false,
+    "apiurl":"http://192.168.1.172/api/v1/wp",
+    "dbtype":"influxdb"
+}
