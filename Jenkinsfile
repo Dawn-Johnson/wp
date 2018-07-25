@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'scp -rf dist root@172.17.0.3:/opt'
+                sh 'scp -r dist root@172.17.0.3:/opt'
             }
         }
     }
